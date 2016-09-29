@@ -27,7 +27,7 @@ void draw()
       fill(map(mouseX,0,width,100,255),map(mouseY,0,height,100,255),map(size, 0,500,255,100));
       ellipseMode(CENTER);
  
- // ellipse w/h = a 5th of its value to slow it down
+ // ellipse w/h = the value of the size variable
       ellipse(0,0, size,size);
       ellipseMode(CENTER);
       size++;
